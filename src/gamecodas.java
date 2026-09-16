@@ -15,11 +15,13 @@ public class gamecodas {
                 enemies.add(i);
 
                 System.out.println(enemies);
+                 playerAlive = false;
+                System.out.println("YOU ARE DEAD");
             }
 
-            playerAlive = false;
+           
         }
 
-        System.out.println("YOU ARE DEAD");
+        
     }
 }
